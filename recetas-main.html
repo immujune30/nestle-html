@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="assets/scripts/dev-scripts/include.js"></script>
+     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/styles/src/styles.css">
+	<link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- Demo styles -->
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #fff;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+	  .container {
+			max-width: 1233px;
+			width: 100%;
+		}
+    </style>
+  </head>
+
+  <body>
+	<section class="container-fluid px-0">
+		<!-- Swiper -->
+		<div class="swiper recetasMainSlider">
+			<div class="swiper-wrapper">
+			  <!-- Slide Item Start -->
+			  <div class="swiper-slide">
+				  <div class="recetas-slider-container">
+						<img src="assets/img/recetas/recetas-slider1.svg" class="img-fluid slider-img" alt="...">
+						<div class="recetas-slider-container-text">
+							<h2 class="text-left text-white">Good Food, <br> Good Life</h2>
+							<p class="text-left text-white">Desarrollando todo el poder de la alimentación para mejorar la calidad de vida, hoy y para futuras generaciones.</p>
+							<img alt="..." class="img-fluid" src="assets/img/leaf-folded.svg">
+						</div>
+						<div class="recetas-slider-container-arrows">
+							<img src="assets/img/home/home-slider-arrows.svg" class="img-fluid" alt="...">
+						</div>
+				  </div>
+			  </div>
+			  <!-- Slide Item End -->
+			<!-- Slide Item Start -->
+			<div class="swiper-slide">
+				<div class="recetas-slider-container">
+					<img src="assets/img/recetas/recetas-slider1.svg" class="img-fluid slider-img" alt="...">
+					<div class="recetas-slider-container-text">
+						<h2 class="text-left text-white">Good Food, <br> Good Life</h2>
+						<p class="text-left text-white">Desarrollando todo el poder de la alimentación para mejorar la calidad de vida, hoy y para futuras generaciones.</p>
+					</div>
+					<div class="recetas-slider-container-arrows">
+						<img src="assets/img/home/home-slider-arrows.svg" class="img-fluid" alt="...">
+					</div>
+					
+				</div>
+			</div>
+			<!-- Slide Item End -->
+			</div>
+			<div class="recetas_leaf_bottom">
+				<img alt="..." class="img-fluid recetas_leaf_bottom1" src="assets/img/leaf-small.svg">
+				<img alt="..." class="img-fluid recetas_leaf_bottom2" src="assets/img/leaf-1.svg">
+			</div>
+		</div>
+		
+	</section>
+
+	<section class="recetas-main-container container-fluid px-0">
+		<div class="recetas-main-left-leaf">
+			<img src="assets/img/leaf-left-cropped.svg" class="img-fluid" alt="...">
+		</div>
+		<div class="recetas-main-right-leaf">
+			<img src="assets/img/leaf-right-cropped.svg" class="img-fluid" alt="...">
+		</div>
+		<div class="container recetas-main-inner">
+			<div class="recetas-main-buttons">
+				<button type="button" class="btn btn-outline-secondary recetas active">Destacados</button>
+				<button type="button" class="btn btn-outline-secondary recetas">Familias</button>
+				<button type="button" class="btn btn-outline-secondary recetas">Comunidades</button>
+				<button type="button" class="btn btn-outline-secondary recetas">El Planeta</button>
+			</div>
+
+			<div class="recetas-main-items">
+				<div class="row">
+					<div class="col-md-6 col-sm-12 recetas-item ">
+						<div class="recetas-item-image">
+							<img alt="..." class="img-fluid" src="assets/img/recetas/recetas-item.svg">
+						</div>
+						<div class="recetas-item-link w-100 float-left">
+							<div class="recetas-item-link-text float-left">¿Qué es <br> sostenibilidad?</div>
+							<div class="recetas-item-link-arrow float-right">
+								<img alt="..." class="img-fluid" src="assets/img/arrow-dark-green.svg">
+							</div>		
+						</div>
+						<div class="recetas-item-text">
+							¿Será que el término sostenibilidad está siempre relacionado con el medio ambiente?...
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-12 recetas-item ">
+						<div class="recetas-item-image">
+							<img alt="..." class="img-fluid" src="assets/img/recetas/recetas-item.svg">
+						</div>
+						<div class="recetas-item-link w-100 float-left">
+							<div class="recetas-item-link-text float-left">¿Qué es <br> sostenibilidad?</div>
+							<div class="recetas-item-link-arrow float-right">
+								<img alt="..." class="img-fluid" src="assets/img/arrow-dark-green.svg">
+							</div>		
+						</div>
+						<div class="recetas-item-text">
+							¿Será que el término sostenibilidad está siempre relacionado con el medio ambiente?...
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-sm-12 recetas-item ">
+						<div class="recetas-item-image">
+							<img alt="..." class="img-fluid" src="assets/img/recetas/recetas-item.svg">
+						</div>
+						<div class="recetas-item-link w-100 float-left">
+							<div class="recetas-item-link-text float-left">¿Qué es <br> sostenibilidad?</div>
+							<div class="recetas-item-link-arrow float-right">
+								<img alt="..." class="img-fluid" src="assets/img/arrow-dark-green.svg">
+							</div>		
+						</div>
+						<div class="recetas-item-text">
+							¿Será que el término sostenibilidad está siempre relacionado con el medio ambiente?...
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-12 recetas-item ">
+						<div class="recetas-item-image">
+							<img alt="..." class="img-fluid" src="assets/img/recetas/recetas-item.svg">
+						</div>
+						<div class="recetas-item-link w-100 float-left">
+							<div class="recetas-item-link-text float-left">¿Qué es <br> sostenibilidad?</div>
+							<div class="recetas-item-link-arrow float-right">
+								<img alt="..." class="img-fluid" src="assets/img/arrow-dark-green.svg">
+							</div>		
+						</div>
+						<div class="recetas-item-text">
+							¿Será que el término sostenibilidad está siempre relacionado con el medio ambiente?...
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+    
+	<div class="container-fluid px-0 inner_registro_top">&nbsp;</div>
+	<div class="container-fluid px-0 home_registro">
+		<div class="container">
+			<div class="row w-100 home_registro_container">
+				<div class="col-md-7">
+					<div class="inner_registro_inner">
+					<h2 class="text-white"><span class="NestleScript">experiencia</span><br>
+						con nosotros</h2>
+					<p class="text-white">NESTLÉ® tiene para ti un mundo de consejos, información, contenidos y promociones que te encantarán. Mantente al día con todo lo nuevo y no te pierdas lo que viene suscribiéndote hoy mismo.</p>
+					</div>
+				</div>
+				
+				<div class="col-md-5">
+					<div class="home_registro_form">
+					<h3 class="text-white">Inicia tu registro</h3>
+					
+					<div class="home_registro_form_container">&nbsp;</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid px-0 home_registro_bottom">&nbsp;</div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".recetasMainSlider", {
+		parallax: true,
+      });
+    </script>
+  </body>
+</html>

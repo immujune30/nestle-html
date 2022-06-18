@@ -1,0 +1,70 @@
+header {
+    height: 70px;
+    position: relative;
+    z-index: 1;
+    nav {
+        .navbar-brand {
+            margin-left: 6vw;
+            figure {
+                margin: 0; 
+            }
+        }
+        .navbar-toggler {
+            margin-right: 6vw;
+            border: none;
+            &:focus {
+                border: none;
+                color: #ffffff;
+            }
+        }
+        .navbar-collapse {
+            background: url('/assets/img/menu-bg-mobile.jpg');
+            height: 90vh;
+        }
+        li {
+            font-size: 2em;
+            &.active {
+                a {
+                    color: $nestle-blue;
+                }
+            }
+            .nav-link {
+                color: $nestle-dark;
+                margin: 0 1.5rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 576px){ //sm
+
+}
+@media screen and (min-width: 768px){ //md
+
+}
+@media screen and (min-width: 992px){ //lg
+    header {
+        max-height: 78px;
+        nav {
+            .navbar-collapse {
+                background: initial;
+                height: inherit;
+            }
+            .navbar-nav {
+                margin-right: 6vw;
+            }
+            li {
+                font-size: 1em;
+                .nav-link {
+                    margin: 0 1vw;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 1200px){ //xl
+
+}
+@media screen and (min-width: 1400px){ //xxl
+
+}
